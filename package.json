@@ -1,0 +1,27 @@
+{
+  "name": "kki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servers/discord/main.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "nodejs tests/client/cli/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.1.0",
+    "sinon": "^4.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "mongodb": "^3.1.0-beta4",
+    "sqlite3": "^4.0.0",
+    "uuid": "^3.2.1"
+  }
+}
